@@ -1,0 +1,30 @@
+/** @format */
+
+body {
+	font-family: Arial, sans-serif;
+	text-align: center;
+	margin-top: 50px;
+    background-color: black;
+}
+h1{
+    color: white;
+}
+#videoContainer {
+	margin-top: 20px;
+}
+
+.center-align {
+	display: block;
+	margin: 0 auto; /* This centers the video horizontally */
+}
+#videoContainer>video
+{
+    height: 16rem;
+}
+
+#message{
+    margin-top: 2rem;
+    font-size: 16px;
+    font-weight: bold;
+    color: yellow;
+}

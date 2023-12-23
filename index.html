@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Dhoni Review System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Dhoni Review System</h1>
+  <input type="text" id="wordInput" >
+  <button onclick="checkWord()">Submit</button>
+  <div id="message"></div>
+
+  <div id="videoContainer">
+    <video id="sevenLetterVideo" class="center-align" autoplay loop>
+      <source src="thala.mp4" type="video/mp4">
+    </video>
+    <video id="otherVideo" class="center-align" style="display: none;" autoplay  loop>
+      <source src="nothala.mp4" type="video/mp4">
+    </video>
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
